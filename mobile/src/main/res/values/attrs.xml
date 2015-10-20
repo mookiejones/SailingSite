@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SliderPreference">
+        <attr name="android:summary" />
+        <attr name="min" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="defaultValue" format="integer"/>
+        <attr name="unitsRight" format="string"/>
+        <attr name="unitsLeft" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="BaseTheme">
+        <attr name="actionBarIconColor" format="color" />
+        <attr name="actionBarInsetStart" format="dimension" />
+        <attr name="spinnerBarInsetStart" format="dimension" />
+        <attr name="popupItemBackground" format="reference" />
+        <attr name="photoItemForeground" format="reference" />
+        <attr name="photoItemForegroundBorderless" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawShadowFrameLayout">
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+        <attr name="desaturateOnPress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CollectionView">
+        <attr name="internalPadding" format="dimension" />
+        <attr name="contentTopClearance" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MessageCard">
+        <attr name="messageTitle" format="string" />
+        <attr name="messageText" format="string" />
+        <attr name="button1text" format="string" />
+        <attr name="button1tag" format="string" />
+        <attr name="button1emphasis" format="boolean" />
+        <attr name="button2text" format="string" />
+        <attr name="button2tag" format="string" />
+        <attr name="button2emphasis" format="boolean" />
+        <attr name="emphasisColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeIOSched">
+        <attr name="isFloatingWindow" format="boolean" />
+    </declare-styleable>
+</resources>
